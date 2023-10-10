@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventures</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set up the background and font styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text color */
+        }
+
+        /* Header styling */
+        header {
+            background-color: #3498db; /* Blue color for the header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        /* Navigation menu styling */
+        nav {
+            background-color: #2980b9; /* Slightly darker blue for the navigation menu */
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Main content styling */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for the container */
+        }
+
+        /* Image styling */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Travel Adventures</h1>
+        <p>Your Journey Begins Here</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Explore the World</h2>
+        <p>Discover breathtaking destinations and embark on unforgettable adventures around the globe.</p>
+
+        <h2>Featured Destination: Tropical Paradise</h2>
+        <p>Escape to a tropical paradise with pristine beaches, lush jungles, and vibrant cultures. Book your dream vacation today!</p>
+        <img src="paradise.jpg" alt="Tropical Paradise">
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to <a href="contact.html">contact us</a>.</p>
+    </div>
+</body>
+</html>
